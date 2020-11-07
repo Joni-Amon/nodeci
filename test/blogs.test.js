@@ -25,6 +25,7 @@ describe('When logged in', async () => {
 
     describe('and using valid inputs and submitting', async () => {
         beforeEach(async () => {
+            
             await page.waitFor('.title input');
             await page.waitFor('.content input');
             await page.type('.title input', 'My title');
