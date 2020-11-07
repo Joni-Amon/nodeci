@@ -1,5 +1,5 @@
+config/dev.js
 node_modules
 nohup.out
 .DS_Store
-config/dev.js
 dev.js
